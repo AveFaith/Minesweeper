@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <GridLayout
+                android:id="@+id/GRID"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+            </GridLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+    <TextView
+        android:id="@+id/Mines"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:text="10/10">
+    </TextView>
+</LinearLayout>
